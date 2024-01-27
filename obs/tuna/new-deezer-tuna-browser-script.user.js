@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         New Deezer Tuna browser script
 // @namespace    satabin
-// @version      1.0.0
+// @version      1.0.1
 // @description  Get song information from Deezer web players, based on Tuna Script by univrsal
 // @author       satabin
 // @match        *://www.deezer.com/*
