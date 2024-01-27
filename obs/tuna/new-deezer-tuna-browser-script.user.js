@@ -98,9 +98,8 @@
                 return "unknown";
             });
 
-            let cover = query('.page-player .thumbnail img.picture-img', e => {
+            let cover = query('.page-player *[data-testid=item_cover] img', e => {
                 if (e) {
-                    // https://e-cdns-images.dzcdn.net/images/cover/c4217689cc86e3e6a289162239424dc3/48x48-000000-80-0-0.jpg
                     return e.src.replace(/\d+x\d+/, '512x512');
                 }
                 return null;
